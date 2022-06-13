@@ -1,0 +1,16 @@
+:root {
+  --primary-color: black;
+  --background-color: #f5f2fe;
+  --box-shadow: 0 4px 9px rgba(104, 86, 86, 0.3);
+}
+
+h2 {
+  font-size: 48px;
+}
+h1 {
+  font-size: 96px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
