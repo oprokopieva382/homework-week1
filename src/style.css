@@ -1,9 +1,49 @@
 :root {
-  --primary-color: black;
+  --primary-color: rgb(75, 73, 73);
   --background-color: #f5f2fe;
   --box-shadow: 0 4px 9px rgba(104, 86, 86, 0.3);
 }
-
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-link {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: var(--background-color);
+  box-shadow: var(--box-shadow);
+}
+.about-link {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+}
+.about-yoga {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  text-align: left;
+}
+.back-link,
+.email-link {
+  display: flex;
+  justify-content: center;
+}
+p {
+  padding: 40px;
+  background-color: var(--background-color);
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
 h2 {
   font-size: 48px;
 }
@@ -13,4 +53,10 @@ h1 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
 }
